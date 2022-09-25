@@ -23,9 +23,10 @@ h1 {
 }
 
 .imagesP {
+  width: 300;
+  height: 300;
   display: grid;
-  width: 100px;
-margin: auto;
+ margin: auto;
 }
 
 .text {
@@ -34,14 +35,25 @@ margin: auto;
 
 .text__tittle {
   text-align: center;
-  color: aliceblue;
 }
 
 .header__navbar {
+  letter-spacing: 0.1em;
+}
+
+.header-navbar__link {
+  display: block;
+  -webkit-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+  font-size: 1.125rem;
+}
+
+/* .header__navbar {
   display: block;
   font-size: 1.125rem;
   margin: auto;
-}
+} */
 
 
 
