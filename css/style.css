@@ -5,8 +5,52 @@ body {
   background-color: cyan;
 }
 
-.block {
-  margin: 20px  auto;
-  height: 22.5px;
-  width: 20px;
+html {
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
+
+h1 {
+  letter-spacing: 0.08em;
+  font-family: "Roboto Slab", serif;
+  font-size: 3.75rem;
+}
+
+
+.titlePlus {
+  text-align: center;
+}
+
+.imagesP {
+  display: grid;
+  width: 100px;
+margin: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.text__tittle {
+  text-align: center;
+  color: aliceblue;
+}
+
+.header__navbar {
+  display: block;
+  font-size: 1.125rem;
+  margin: auto;
+}
+
+
+
+
+.footer {
+  text-align: center;
+  background-color: grey;
+  padding: 50px 20px 70px;
+}
+
+
+
