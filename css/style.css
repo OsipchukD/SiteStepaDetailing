@@ -15,26 +15,31 @@ h1 {
   letter-spacing: 0.08em;
   font-family: "Roboto Slab", serif;
   font-size: 3.75rem;
-}
-
-
-.titlePlus {
+  height: 10px;
+  color: yellow;
   text-align: center;
 }
 
-.imagesP {
-  width: 300;
-  height: 300;
+img.imagesP {
+  width: 300px;
+  height: 200px;
   display: grid;
- margin: auto;
+  font-size: 16px;
 }
 
 .text {
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-style: italic;
+ font-size: 150%;
+ padding: 1px;
 }
 
 .text__tittle {
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  list-style-position: inside; 
 }
 
 .header__navbar {
@@ -48,14 +53,6 @@ h1 {
   transition: color 0.5s;
   font-size: 1.125rem;
 }
-
-/* .header__navbar {
-  display: block;
-  font-size: 1.125rem;
-  margin: auto;
-} */
-
-
 
 
 .footer {
